@@ -1,0 +1,75 @@
+name: employees
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0+1
+  provider: ^6.1.2
+  go_router: ^14.8.0
+  flutter_svg: ^2.0.17
+  diacritic: ^0.1.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  mocktail: ^1.0.4
+  flutter_image_test_utils: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+    - family: HelveticaNeue
+      fonts:
+        - asset: fonts/helvetica_neue/HelveticaNeueBlack.otf
+          weight: 900
+        - asset: fonts/helvetica_neue/HelveticaNeueBlackItalic.otf
+          weight: 900
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueBold.otf
+          weight: 700
+        - asset: fonts/helvetica_neue/HelveticaNeueBoldItalic.otf
+          weight: 700
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueHeavy.otf
+          weight: 800
+        - asset: fonts/helvetica_neue/HelveticaNeueHeavyItalic.otf
+          weight: 800
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueItalic.ttf
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueLight.otf
+          weight: 300
+        - asset: fonts/helvetica_neue/HelveticaNeueLightItalic.otf
+          weight: 300
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueMedium.otf
+          weight: 500
+        - asset: fonts/helvetica_neue/HelveticaNeueMediumItalic.otf
+          weight: 500
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueRoman.otf
+          weight: 400
+        - asset: fonts/helvetica_neue/HelveticaNeueThin.otf
+          weight: 100
+        - asset: fonts/helvetica_neue/HelveticaNeueThinItalic.otf
+          weight: 100
+          style: italic
+        - asset: fonts/helvetica_neue/HelveticaNeueUltraLight.otf
+          weight: 200
+        - asset: fonts/helvetica_neue/HelveticaNeueUltraLightItalic.otf
+          weight: 200
+          style: italic
+
+        
+        
